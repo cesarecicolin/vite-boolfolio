@@ -1,15 +1,20 @@
 <script>
+import appMain from './components/appMain.vue';
 export default {
   data(){
     return{
-
+      
+     
     }
-  }
+  },
+  components: { appMain}
+  
+  
 }
 </script>
 
 <template>
-<h1>HELLO</h1>
+<appMain />
 </template>
 
 <style lang="scss">
